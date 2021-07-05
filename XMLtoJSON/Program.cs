@@ -78,7 +78,7 @@ namespace XMLtoJSON
 
             using (var tw = new StreamWriter(jsonFile))
             {
-                tw.WriteLine(result.ToString());
+                tw.WriteLine(result);
                 tw.Close();
             }
 
